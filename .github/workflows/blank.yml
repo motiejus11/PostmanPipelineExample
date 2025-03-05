@@ -35,4 +35,4 @@ jobs:
 
       # Run Newman Test
       - name: Running first collection
-      
+        run: newman run JsonplaceholderAPI.postman_collection.json
