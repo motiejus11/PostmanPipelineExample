@@ -1,4 +1,4 @@
-name: Newman Test Run CI
+name: Newman Test Run CI Second Collection
 
 # Controls when the workflow will run
 on:
