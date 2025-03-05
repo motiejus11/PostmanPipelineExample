@@ -35,7 +35,7 @@ jobs:
 
       # Run Newman Test #1
       - name: Running first collection
-        run: newman run JsonplaceholderAPI.postman_collection.json
+        run: newman run JsonplaceholderAPI.postman_collection.json &
 
       # Run Newman Test #2
       - name: Running collection with Environment
